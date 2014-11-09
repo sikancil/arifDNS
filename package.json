@@ -1,0 +1,22 @@
+{
+  "name": "arifDNS",
+  "version": "0.1.0-alpha",
+  "description": "arifNodeDNS-Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "dependencies": {
+    "native-dns": "0.6.1",
+    "socket.io-client": "0.9.16",
+    "winston": "^0.8.1"
+  },
+  "repository": "",
+  "keywords": [
+    "dns",
+    "dns",
+    "server"
+  ],
+  "author": "https://plus.google.com/+ArifWidianto",
+  "license": "BSD"
+}
