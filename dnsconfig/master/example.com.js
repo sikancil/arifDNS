@@ -1,66 +1,66 @@
 var dns = {
-	domainName: 'awalkinacloud.com',
+	domainName: 'example.com',
 	
 	//-- SOA
 	SOA: {	
-		name: 'awalkinacloud.com',
-		primary: 'ns1.awalkinacloud.com',
-		admin: 'dimas.indie@gmail.com',
+		name: 'example.com',
+		primary: 'ns1.example.com',
+		admin: 'dimas.arif@outlook.com',
 		serial: '2014101001',
 		refresh: 604800,
 		retry: 86400,
 		expiration: 86400,
 		minimum: 1400,
-		address: '202.138.234.157',
+		address: '123.123.123.123',
 		ttl: 600,
 	},
 	
 	
 	//-- A
 	A: [{	
-		name: 'awalkinacloud.com',
-		address: '202.138.234.157',
+		name: 'example.com',
+		address: '123.123.123.123',
 		ttl: 600
 	}, {
-		name: 'ns1.awalkinacloud.com',
-		address: '202.138.234.157',
+		name: 'ns1.example.com',
+		address: '123.123.123.123',
 		ttl: 600
 	}, {
-		name: 'ns2.awalkinacloud.com',
-		address: '202.138.234.157',
+		name: 'ns2.example.com',
+		address: '123.123.123.123',
 		ttl: 600
 	}, {
-		name: 'mail.awalkinacloud.com',
-		address: '202.138.234.157',
+		name: 'mail.example.com',
+		address: '123.123.123.123',
 		ttl: 600
 	}],
 	
 	
 	//-- NS
 	NS: [{
-		name: 'ns1.awalkinacloud.com',
-		data: 'ns1.awalkinacloud.com',
+		name: 'ns1.example.com',
+		data: 'ns1.example.com',
 		ttl: 600
 	}, {
-		name: 'ns2.awalkinacloud.com',
-		data: 'ns2.awalkinacloud.com',
+		name: 'ns2.example.com',
+		data: 'ns2.example.com',
 		ttl: 600
 	}],
 	
 	
 	//-- CNAME
 	CNAME: [{
-		name: 'www.awalkinacloud.com',
-		data: 'awalkinacloud.com',
+		name: 'www.example.com',
+		data: 'example.com',
 		ttl: 600
 	}],
 	
 	
 	//-- MX
 	MX: [{
-		name: 'mail.awalkinacloud.com',
+		name: 'mail.example.com',
 		priority: 10,
-		exchange: 'mail.awalkinacloud.com',
+		exchange: 'mail.example.com',
 		ttl: 600
 	}],
 	
